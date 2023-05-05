@@ -41,7 +41,7 @@ while game_is_on:
 
     #Detect When r_Paddle misses the Ball
 
-    if  ball.xcor() > 380 :
+    if  ball.xcor() > 359 :
         ball.reset()
         r_paddle.goto(350,0)
         l_paddle.goto(-350,0)
@@ -49,7 +49,7 @@ while game_is_on:
 
     # Detect When l_Paddle misses the Ball
 
-    if ball.xcor() < -380:
+    if ball.xcor() < -359:
         ball.reset()
         r_paddle.goto(350, 0)
         l_paddle.goto(-350, 0)
